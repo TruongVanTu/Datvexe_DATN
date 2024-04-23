@@ -1,0 +1,2 @@
+$ git config --global user.name "Truong Tu"
+$ git config --global user.email tutvph14566@fpt.edu.vn
