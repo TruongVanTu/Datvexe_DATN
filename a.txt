@@ -1,2 +1,6 @@
+git init
+git remote add origin https://github.com/TruongVanTu/Datvexe_DATN.git
+git config --global credential.helper store
 $ git config --global user.name "Truong Tu"
 $ git config --global user.email tutvph14566@fpt.edu.vn
+git config --global credential.helper store
