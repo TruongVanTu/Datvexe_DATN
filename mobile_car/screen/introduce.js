@@ -31,8 +31,9 @@ const array = [
     img: "https://cnm1.s3.ap-southeast-1.amazonaws.com/f61e554b-c6f5-48ca-b69c-0b1fbae73fd7-1654309450420.jpg",
   },
 ];
-
 const Items = ({ item, navigation }) => (
+  // TouchableOpacity để bao bọc một phần tử, như một nút hoặc một hình ảnh, 
+  // nó sẽ cung cấp cho phần tử đó một hiệu ứng opacity (độ trong suốt) khi người dùng nhấn vào.
   <TouchableOpacity
     onPress={() => {
       console.log("item", item);
